@@ -1,0 +1,23 @@
+// function initMap() {
+//   // map
+//   const map = new google.maps.Map(document.getElementById('map'), {
+//   center: {lat: 6.5244, lng: 3.3792},
+//   zoom: 8
+//   });
+
+// // Marker
+//   const marker = new google.maps.Marker({
+//     position:{lat: 6.5244, lng: 3.3792},
+//     map,
+//     // icon: 'icon'
+//   });
+
+//   // Info window
+//   const infoWindow = new google.maps.InfoWindow({
+//     content: '<h1>My location</h1>'
+//   });
+
+//   marker.addListener('click', () => {
+//     infoWindow.open(map, marker);
+//   })
+// }
